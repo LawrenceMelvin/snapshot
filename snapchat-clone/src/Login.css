@@ -1,0 +1,22 @@
+.login__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container > Button {
+   
+    background-color:  rgb(238, 238, 81);;
+    width: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.login__container > Button:hover {
+    background-color: rgb(187, 166, 49);
+}
+
+.login__container > img{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+}
